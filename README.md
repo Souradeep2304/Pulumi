@@ -20,7 +20,7 @@ Figure 1.2: Detailed Architecture in Azure
 - [`Configure Azure`](https://www.pulumi.com/docs/reference/clouds/azure/setup/) so the Pulumi CLI can connect to Azure.
 - Place this files in an empty directory and start pulumi in that directory.
 - Type in the commands 
-```
-pulumi init
-pulumi up
-```
+    ```
+        pulumi init
+        pulumi up
+    ```
