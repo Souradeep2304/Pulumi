@@ -21,6 +21,6 @@ Figure 1.2: Detailed Architecture in Azure
 - Place this files in an empty directory and start pulumi in that directory.
 - Type in the commands 
     ```
-        pulumi init
-        pulumi up
+    pulumi init
+    pulumi up
     ```
