@@ -7,9 +7,7 @@ class VNET extends pulumi.ComponentResource{
     constructor(vnetname,location,rg,vspace,nsg1,nsg2,nsg3,s1,s2,s3,i){
         super(vnetname,location,rg,vspace,nsg1,nsg2,nsg3,s1,s2,s3,i); 
         const vnet = new azure.network.VirtualNetwork("N"+i, {
-            addressSpaces: [vspace],
-            
-        
+            addressSpaces: [vspace],        
             location: location,
             name: vnetname,
             resourceGroupName: rg,
