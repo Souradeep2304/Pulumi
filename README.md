@@ -23,5 +23,6 @@ Figure 1.2: Detailed Architecture in Azure
 - Type in the commands 
     ```
     pulumi new
+    pulumi stack init <stack-name>
     pulumi up
     ```
