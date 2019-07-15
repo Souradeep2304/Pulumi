@@ -16,6 +16,9 @@ Figure 1.2: Detailed Architecture in Azure
 </p>
 </br>
 
+In case of disaster recovery the bash script may be executed on the database network security groups of both the locations to allow communication to the second Vnet's Database subnet from the first.</br>
+
+
 ## How to Deploy:
 -  Install Pulumi.
 - [`Configure Azure`](https://www.pulumi.com/docs/reference/clouds/azure/setup/) so the Pulumi CLI can connect to Azure.
