@@ -1,4 +1,4 @@
-# Deploying Infrastructure as a code using Pulumi
+# Deploying Infrastructure as a Code using Pulumi
 
 **Pulumi** is an open source platform for building and deploying cloud infrastructure and applications in one of the four languages: JavaScript, python, typescript, Go. It supports multi cloud environment including support for Microsoft Azure, Google Cloud, Amazon Web Services and kubernetes. To learn more about pulumi, you can go through the [`documentation of Pulumi`](https://www.pulumi.com/docs/).
 
