@@ -18,6 +18,14 @@ Figure 1.2: Detailed Architecture in Azure
 
 In case of disaster recovery the bash script may be executed on the database network security groups of both the locations to allow communication to the second Vnet's Database subnet from the first.</br>
 
+## Description of the File:
+- V-NET.js: JavaScript file for deploying a vnet in a given location with 3 subnets.
+- peering.js: JavaScript file for deploying peering between two virtual networks.
+- apiNSG.js: JavaScript file for deploying an NSG for the api subnet with given set of rules.
+- webNSG.js: JavaScript file for deploying an NSG for the web subnet with given set of rules.
+- dbNSG.js: JavaScript file for deploying an NSG for the database subnet with given set of rules.
+- main.js: Driver JavaScript file for deploying the 3-tier architecture.
+- Bash.sh: Script file for deploying disaster recovery measures by connecting the database subnets of the two vnets.
 
 ## How to Deploy:
 -  Install Pulumi.
